@@ -1,4 +1,4 @@
-# 🏥 Hospital Management System - Backend API
+<!-- # 🏥 Hospital Management System - Backend API
 ## Powered by FastAPI + Pydantic V2 + PostgreSQL
 
 A comprehensive **FastAPI-based Hospital Management System** with complete floor management, patient records, appointments, billing, inventory, and more.
@@ -104,4 +104,4 @@ A comprehensive **FastAPI-based Hospital Management System** with complete floor
 
 ```bash
 git clone https://github.com/yourusername/hospital-management-backend.git
-cd hospital-management-backend
+cd hospital-management-backend -->
