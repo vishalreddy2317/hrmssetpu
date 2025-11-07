@@ -1,0 +1,5 @@
+from app.crud.base import CRUDBase
+from app.models.leave import Leave
+from app.schemas.leave import LeaveCreate, LeaveUpdate
+
+leave_crud = CRUDBase[Leave, LeaveCreate, LeaveUpdate](Leave)

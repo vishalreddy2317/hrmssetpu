@@ -1,0 +1,10 @@
+from fastapi import Depends, HTTPException, status
+from sqlalchemy.ext.asyncio import AsyncSession
+from app.dependencies.common import get_db
+from app.services.diagnosis import diagnosis_service
+
+async def get_diagnosis_by_id(id: int, db: AsyncSession = Depends(get_db)):
+    obj = await diagnosis_service.get_diagnosis(db, id=id)
+    if not obj:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Diagnosis not found")
+    return obj

@@ -1,0 +1,230 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.virtualenv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+.env.production
+.env.development
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# PostgreSQL
+*.sql
+*.dump
+*.backup
+pgdata/
+pg_data/
+
+# Logs
+logs/
+*.log
+log.txt
+*.log.*
+celery-*.log
+
+# Uploads & Media
+uploads/
+media/
+static/uploads/
+temp/
+tmp/
+
+# Backups
+backups/
+*.backup
+*.bak
+*.old
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest/
+test-results/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Pydantic
+.pydantic/
+
+# Cython
+cython_debug/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+.dockerignore
+
+# Alembic
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+~*
+*.swp
+*.swo
+*~
+
+# Certificates & Keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+ssl/
+certs/
+
+# Secrets
+secrets/
+*.secret
+.secrets/
+
+# Redis dump
+dump.rdb
+appendonly.aof
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+
+# Documentation build
+docs/_build/
+site/
+_build/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Editor backups
+*~
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# Node modules (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage reports
+.coverage.*
+coverage/
+*.lcov
+
+# Profiling
+*.prof
+*.lprof
+*.pstats
+
+# Lock files (optional)
+poetry.lock
+Pipfile.lock
+
+# Ruff
+.ruff_cache/
+
+# Black
+.black/
+
+# Local configuration
+config.local.py
+settings.local.py
+
+# Database migrations (optional - depends on team preference)
+# alembic/versions/
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
